@@ -1,0 +1,57 @@
+server:
+  port: 9090
+spring:
+  cloud:
+    gateway:
+      default-filters:
+        - TokenRelay
+      routes:
+        - id: poll-manager-app
+          uri: http://localhost:8081
+          predicates:
+            - Path=/poll/**
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:9091/auth/realms/poll-stack-realm
+      client:
+        provider:
+          poll-keycloak-provider:
+            issuer-uri: http://localhost:9091/auth/realms/poll-stack-realm
+            # Individual properties can also be provided this way
+#            token-uri: http://localhost:9091/auth/realms/poll-stack-realm/protocol/openid-connect/token
+#            authorization-uri: http://localhost:9091/auth/poll-stack-realm/protocol/openid-connect/auth
+#            userinfo-uri: http://localhost:9091/auth/realms/poll-stack-realm/protocol/openid-connect/userinfo
+#            user-name-attribute: preferred_username
+        registration:
+          keycloak-spring-gateway-client:
+            provider: poll-keycloak-provider
+            client-id: poll-manager-client
+            client-secret: 51a8d8ce-7e82-46ff-a92a-0d3ba80a293c
+            authorization-grant-type: password
+
+
+
+keycloak:
+  url: http://localhost:9091
+  realm:  http://localhost:9091/auth/realms/poll-stack-realm
+  token-uri: http://localhost:9091/auth/realms/poll-stack-realm/protocol/openid-connect/token
+  client-id: poll-manager-client
+  client-secret: 51a8d8ce-7e82-46ff-a92a-0d3ba80a293c
+  grant-type: password
+# Enable these to debug the Authorization flow
+logging:
+    level:
+      org:
+        springframework:
+          security:
+            web: DEBUG
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

@@ -1,0 +1,329 @@
+2022-05-01 12:59:05 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-05-01 12:59:05 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=notification-manager, profiles=[dev], label=null, version=null, state=null
+2022-05-01 12:59:13 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-05-01 12:59:13 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=notification-manager, profiles=[default], label=null, version=null, state=null
+2022-05-01 12:59:13 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}]
+2022-05-01 12:59:14 [main] INFO  c.m.d.n.m.a.NotificationManagerAppApplication - The following 1 profile is active: "dev"
+2022-05-01 12:59:15 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-05-01 12:59:15 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=notification-manager, profiles=[dev], label=null, version=null, state=null
+2022-05-01 12:59:29 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c4599005-0c2b-300f-b32d-3ccd4f1677a2
+2022-05-01 12:59:39 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-05-01 12:59:39 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-05-01 12:59:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 24765 ms
+2022-05-01 13:00:02 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-05-01 13:00:06 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-01 13:00:07 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-01 13:00:07 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-05-01 13:00:07 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-05-01 13:00:07 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-05-01 13:00:07 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-05-01 13:00:08 [main] INFO  o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 8082 (http) with context path '/notification-manager'
+2022-05-01 13:00:11 [main] INFO  c.m.d.n.m.a.NotificationManagerAppApplication - Started NotificationManagerAppApplication in 74.304 seconds (JVM running for 85.523)
+2022-05-01 13:00:15 [RMI TCP Connection(6)-172.24.208.1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 13:00:15 [RMI TCP Connection(6)-172.24.208.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 13:00:15 [RMI TCP Connection(6)-172.24.208.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2022-05-01 13:03:08 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-05-01 13:03:08 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-05-01 13:17:49 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-05-01 13:17:49 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=notification-manager, profiles=[dev], label=null, version=null, state=null
+2022-05-01 13:17:50 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-05-01 13:17:50 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=notification-manager, profiles=[default], label=null, version=null, state=null
+2022-05-01 13:17:50 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}]
+2022-05-01 13:17:50 [main] INFO  c.m.d.n.m.a.NotificationManagerAppApplication - The following 1 profile is active: "dev"
+2022-05-01 13:17:50 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-05-01 13:17:50 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=notification-manager, profiles=[dev], label=null, version=null, state=null
+2022-05-01 13:17:52 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c4599005-0c2b-300f-b32d-3ccd4f1677a2
+2022-05-01 13:17:53 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-05-01 13:17:53 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-05-01 13:17:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2422 ms
+2022-05-01 13:17:56 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-05-01 13:17:57 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-01 13:17:57 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-01 13:17:57 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-05-01 13:17:58 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-05-01 13:17:58 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-05-01 13:17:58 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-05-01 13:17:58 [main] INFO  o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 8082 (http) with context path '/notification-manager'
+2022-05-01 13:17:58 [main] INFO  c.m.d.n.m.a.NotificationManagerAppApplication - Started NotificationManagerAppApplication in 11.184 seconds (JVM running for 14.026)
+2022-05-01 13:18:00 [RMI TCP Connection(4)-172.24.208.1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 13:18:00 [RMI TCP Connection(4)-172.24.208.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 13:18:00 [RMI TCP Connection(4)-172.24.208.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-05-01 13:23:26 [XNIO-1 task-2] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 141 ms
+2022-05-01 13:38:29 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-05-01 13:38:29 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-05-01 14:47:41 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-05-01 14:47:41 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=notification-manager, profiles=[dev], label=null, version=null, state=null
+2022-05-01 14:47:42 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-05-01 14:47:42 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=notification-manager, profiles=[default], label=null, version=null, state=null
+2022-05-01 14:47:42 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}]
+2022-05-01 14:47:42 [main] INFO  c.m.d.n.m.a.NotificationManagerAppApplication - The following 1 profile is active: "dev"
+2022-05-01 14:47:42 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-05-01 14:47:42 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=notification-manager, profiles=[dev], label=null, version=null, state=null
+2022-05-01 14:47:44 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c4599005-0c2b-300f-b32d-3ccd4f1677a2
+2022-05-01 14:47:44 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-05-01 14:47:44 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-05-01 14:47:44 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2067 ms
+2022-05-01 14:47:47 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-05-01 14:47:48 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-01 14:47:48 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-01 14:47:48 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-05-01 14:47:49 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-05-01 14:47:49 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-05-01 14:47:49 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-05-01 14:47:49 [main] INFO  o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 8082 (http) with context path '/notification-manager'
+2022-05-01 14:47:49 [main] INFO  c.m.d.n.m.a.NotificationManagerAppApplication - Started NotificationManagerAppApplication in 10.354 seconds (JVM running for 12.458)
+2022-05-01 14:47:51 [RMI TCP Connection(2)-172.24.208.1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 14:47:51 [RMI TCP Connection(2)-172.24.208.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 14:47:51 [RMI TCP Connection(2)-172.24.208.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-05-01 14:48:43 [XNIO-1 task-1] ERROR io.undertow.request - UT005023: Exception handling request to /notification-manager/api/v1/email-notification/send
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:517)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:584)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.cloud.sleuth.instrument.web.servlet.TracingFilter.doFilter(TracingFilter.java:89)
+	at org.springframework.cloud.sleuth.autoconfig.instrument.web.TraceWebServletConfiguration$LazyTracingFilter.doFilter(TraceWebServletConfiguration.java:129)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:275)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:79)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:134)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:131)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:255)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:79)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:100)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:852)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:2019)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1558)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1423)
+	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException: null
+	at com.mak.demo.notification.email.service.impl.EmailServiceAdapterImpl.send(EmailServiceAdapterImpl.java:83)
+	at com.mak.demo.notification.email.service.impl.EmailServiceAdapterImpl.sendEmailWithAttachments(EmailServiceAdapterImpl.java:56)
+	at com.mak.demo.notification.email.service.impl.EmailServiceAdapterImpl.sendEmail(EmailServiceAdapterImpl.java:38)
+	at com.mak.demo.notification.manager.app.controller.impl.EmailNotificationControllerImpl.sendEmail(EmailNotificationControllerImpl.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 51 common frames omitted
+2022-05-01 14:50:20 [XNIO-1 task-1] ERROR io.undertow.request - UT005023: Exception handling request to /notification-manager/api/v1/email-notification/send
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:517)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:584)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.cloud.sleuth.instrument.web.servlet.TracingFilter.doFilter(TracingFilter.java:89)
+	at org.springframework.cloud.sleuth.autoconfig.instrument.web.TraceWebServletConfiguration$LazyTracingFilter.doFilter(TraceWebServletConfiguration.java:129)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:275)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:79)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:134)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:131)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:255)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:79)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:100)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:852)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:2019)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1558)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1449)
+	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException: null
+	at com.mak.demo.notification.email.service.impl.EmailServiceAdapterImpl.send(EmailServiceAdapterImpl.java:83)
+	at com.mak.demo.notification.email.service.impl.EmailServiceAdapterImpl.sendEmailWithAttachments(EmailServiceAdapterImpl.java:56)
+	at com.mak.demo.notification.email.service.impl.EmailServiceAdapterImpl.sendEmail(EmailServiceAdapterImpl.java:38)
+	at com.mak.demo.notification.manager.app.controller.impl.EmailNotificationControllerImpl.sendEmail(EmailNotificationControllerImpl.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 51 common frames omitted
+2022-05-01 14:56:16 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-05-01 14:56:16 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-05-01 14:56:27 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-05-01 14:56:27 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=notification-manager, profiles=[dev], label=null, version=null, state=null
+2022-05-01 14:56:28 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-05-01 14:56:28 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=notification-manager, profiles=[default], label=null, version=null, state=null
+2022-05-01 14:56:28 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}]
+2022-05-01 14:56:28 [main] INFO  c.m.d.n.m.a.NotificationManagerAppApplication - The following 1 profile is active: "dev"
+2022-05-01 14:56:28 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-05-01 14:56:28 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=notification-manager, profiles=[dev], label=null, version=null, state=null
+2022-05-01 14:56:29 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c4599005-0c2b-300f-b32d-3ccd4f1677a2
+2022-05-01 14:56:30 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-05-01 14:56:30 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-05-01 14:56:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2015 ms
+2022-05-01 14:56:33 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-05-01 14:56:34 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-01 14:56:34 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-01 14:56:34 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-05-01 14:56:34 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-05-01 14:56:34 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-05-01 14:56:34 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-05-01 14:56:34 [main] INFO  o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 8082 (http) with context path '/notification-manager'
+2022-05-01 14:56:35 [main] INFO  c.m.d.n.m.a.NotificationManagerAppApplication - Started NotificationManagerAppApplication in 9.88 seconds (JVM running for 11.893)
+2022-05-01 14:56:36 [RMI TCP Connection(3)-172.24.208.1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 14:56:36 [RMI TCP Connection(3)-172.24.208.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 14:56:36 [RMI TCP Connection(3)-172.24.208.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-05-01 15:06:41 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-05-01 15:06:41 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-05-01 15:06:51 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-05-01 15:06:51 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=notification-manager, profiles=[dev], label=null, version=null, state=null
+2022-05-01 15:06:52 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-05-01 15:06:52 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=notification-manager, profiles=[default], label=null, version=null, state=null
+2022-05-01 15:06:52 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}]
+2022-05-01 15:06:52 [main] INFO  c.m.d.n.m.a.NotificationManagerAppApplication - The following 1 profile is active: "dev"
+2022-05-01 15:06:52 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-05-01 15:06:52 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=notification-manager, profiles=[dev], label=null, version=null, state=null
+2022-05-01 15:06:54 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c4599005-0c2b-300f-b32d-3ccd4f1677a2
+2022-05-01 15:06:55 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-05-01 15:06:55 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-05-01 15:06:55 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2352 ms
+2022-05-01 15:06:58 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-05-01 15:06:59 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-01 15:07:00 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-01 15:07:00 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-05-01 15:07:00 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-05-01 15:07:00 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-05-01 15:07:00 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-05-01 15:07:00 [main] INFO  o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 8082 (http) with context path '/notification-manager'
+2022-05-01 15:07:01 [main] INFO  c.m.d.n.m.a.NotificationManagerAppApplication - Started NotificationManagerAppApplication in 11.274 seconds (JVM running for 13.404)
+2022-05-01 15:07:02 [RMI TCP Connection(6)-172.24.208.1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 15:07:02 [RMI TCP Connection(6)-172.24.208.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 15:07:02 [RMI TCP Connection(6)-172.24.208.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-05-01 15:12:20 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-05-01 15:12:20 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-05-01 16:08:19 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-05-01 16:08:19 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=notification-manager, profiles=[dev], label=null, version=null, state=null
+2022-05-01 16:08:21 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-05-01 16:08:21 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=notification-manager, profiles=[default], label=null, version=null, state=null
+2022-05-01 16:08:21 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}]
+2022-05-01 16:08:21 [main] INFO  c.m.d.n.m.a.NotificationManagerAppApplication - The following 1 profile is active: "dev"
+2022-05-01 16:08:21 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-05-01 16:08:21 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=notification-manager, profiles=[dev], label=null, version=null, state=null
+2022-05-01 16:08:22 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c4599005-0c2b-300f-b32d-3ccd4f1677a2
+2022-05-01 16:08:23 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-05-01 16:08:23 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-05-01 16:08:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2091 ms
+2022-05-01 16:08:26 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-05-01 16:08:27 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-01 16:08:27 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-01 16:08:27 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-05-01 16:08:27 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-05-01 16:08:27 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-05-01 16:08:27 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-05-01 16:08:27 [main] INFO  o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 8082 (http) with context path '/notification-manager'
+2022-05-01 16:08:28 [main] INFO  c.m.d.n.m.a.NotificationManagerAppApplication - Started NotificationManagerAppApplication in 10.53 seconds (JVM running for 13.303)
+2022-05-01 16:08:29 [RMI TCP Connection(1)-172.24.208.1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 16:08:29 [RMI TCP Connection(1)-172.24.208.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 16:08:29 [RMI TCP Connection(1)-172.24.208.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-05-01 16:12:18 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-05-01 16:12:18 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-05-01 16:15:10 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-05-01 16:15:10 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=notification-manager, profiles=[dev], label=null, version=null, state=null
+2022-05-01 16:15:11 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-05-01 16:15:11 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=notification-manager, profiles=[default], label=null, version=null, state=null
+2022-05-01 16:15:11 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}]
+2022-05-01 16:15:11 [main] INFO  c.m.d.n.m.a.NotificationManagerAppApplication - The following 1 profile is active: "dev"
+2022-05-01 16:15:11 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-05-01 16:15:11 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=notification-manager, profiles=[dev], label=null, version=null, state=null
+2022-05-01 16:15:13 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c4599005-0c2b-300f-b32d-3ccd4f1677a2
+2022-05-01 16:15:13 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-05-01 16:15:13 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-05-01 16:15:13 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2101 ms
+2022-05-01 16:15:17 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-05-01 16:15:18 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-01 16:15:18 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-01 16:15:18 [main] INFO  io.undertow - starting server: Undertow - 2.2.16.Final
+2022-05-01 16:15:18 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-05-01 16:15:18 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-05-01 16:15:18 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-05-01 16:15:18 [main] INFO  o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 8082 (http) with context path '/notification-manager'
+2022-05-01 16:15:19 [main] INFO  c.m.d.n.m.a.NotificationManagerAppApplication - Started NotificationManagerAppApplication in 10.763 seconds (JVM running for 12.921)
+2022-05-01 16:15:20 [RMI TCP Connection(2)-172.24.208.1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 16:15:20 [RMI TCP Connection(2)-172.24.208.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 16:15:20 [RMI TCP Connection(2)-172.24.208.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-05-01 19:04:43 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.16.Final
+2022-05-01 19:04:43 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'

@@ -1,0 +1,11 @@
+spring:
+  config:
+    use-legacy-processing: true
+  profiles:
+    include: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config
+          #  - file:${user.dir}/config/

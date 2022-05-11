@@ -1,0 +1,77 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /poll-manager
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: ${HOST:poll-manager}
+  client:
+    enabled: false
+    serviceUrl:
+      defaultZone: http://mak-discovery-server/eureka
+    register-with-eureka: false
+    fetch-registry: false
+    healthcheck:
+      enabled: true
+spring:
+#  autoconfigure:
+#    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+      path: /h2-ui
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        format_sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: method
+    url: "/v3/api-docs"
+
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-uri: http://localhost:9091/auth/realms/poll-stack-realm
+        key-set-uri: http://localhost:9091/auth/realms/poll-stack-realm/protocol/openid-connect/certs
+keycloak:
+  url: http://localhost:9091
+  realm:  http://localhost:9091/auth/realms/poll-stack-realm
+  check-token-uri: http://localhost:9091/auth/realms/poll-stack-realm/protocol/openid-connect/token/introspect
+  client-id: poll-manager-client
+  client-secret: 51a8d8ce-7e82-46ff-a92a-0d3ba80a293c
+  grant-type: password
+
+notification:
+  email:
+    from: noreply-ocs@gmail.com
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 300000
+        readTimeout: 300000
+        loggerLevel: FULL
+
+ribbon.eureka.enabled: false
+
+notification-manager:
+  ribbon:
+    listOfServers: http://localhost:8082/notification-manager

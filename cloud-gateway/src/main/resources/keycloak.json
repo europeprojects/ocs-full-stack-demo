@@ -1,0 +1,11 @@
+{
+  "realm": "poll-stack-realm",
+  "auth-server-url": "http://localhost:9091/auth/realms/poll-stack-realm/protocol/openid-connect/auth",
+  "ssl-required": "external",
+  "resource": "poll-manager-app",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "51a8d8ce-7e82-46ff-a92a-0d3ba80a293c"
+  },
+  "confidential-port": 0
+}

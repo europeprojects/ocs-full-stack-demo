@@ -1,0 +1,88 @@
+2022-04-17 17:02:53 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2022-04-17 17:05:23 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2022-04-17 17:08:27 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2022-04-17 17:11:47 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-04-17 17:11:47 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-04-17 17:11:47 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=cloud-gateway, profiles=[dev], label=null, version=null, state=null
+2022-04-17 17:11:51 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2022-04-17 17:11:51 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=cloud-gateway, profiles=[default], label=null, version=null, state=null
+2022-04-17 17:11:51 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}]
+2022-04-17 17:11:51 [main] INFO  c.m.d.g.CloudGatewayApplication - The following 1 profile is active: "dev"
+2022-04-17 17:11:51 [main] INFO  o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-04-17 17:11:51 [main] INFO  o.s.b.c.config.ConfigDataLoader - Located environment: name=cloud-gateway, profiles=[dev], label=null, version=null, state=null
+2022-04-17 17:11:55 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d58e6baa-ece3-3886-bb87-98521d8a21d5
+2022-04-17 17:12:05 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2022-04-17 17:12:05 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2022-04-17 17:12:05 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2022-04-17 17:12:05 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2022-04-17 17:12:05 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2022-04-17 17:12:05 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2022-04-17 17:12:05 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2022-04-17 17:12:05 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2022-04-17 17:12:05 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2022-04-17 17:12:05 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2022-04-17 17:12:05 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2022-04-17 17:12:05 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2022-04-17 17:12:05 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-04-17 17:12:10 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 27 endpoint(s) beneath base path '/actuator'
+2022-04-17 17:12:20 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 9090
+2022-04-17 17:12:26 [main] INFO  c.m.d.g.CloudGatewayApplication - Started CloudGatewayApplication in 44.408 seconds (JVM running for 49.881)
+2022-04-17 17:12:33 [reactor-http-nio-3] DEBUG o.s.s.w.s.u.m.PathPatternParserServerWebExchangeMatcher - Request 'POST /oauth2/token' doesn't match 'null /oauth2/authorization/{registrationId}'
+2022-04-17 17:12:33 [parallel-1] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/logout', method=POST}
+2022-04-17 17:12:33 [parallel-1] DEBUG o.s.s.w.s.u.m.PathPatternParserServerWebExchangeMatcher - Request 'POST /oauth2/token' doesn't match 'POST /logout'
+2022-04-17 17:12:33 [parallel-1] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - No matches found
+2022-04-17 17:12:33 [parallel-1] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/actuator/**', method=null}
+2022-04-17 17:12:33 [parallel-1] DEBUG o.s.s.w.s.u.m.PathPatternParserServerWebExchangeMatcher - Request 'POST /oauth2/token' doesn't match 'null /actuator/**'
+2022-04-17 17:12:33 [parallel-1] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/oauth2/**', method=null}
+2022-04-17 17:12:33 [parallel-1] DEBUG o.s.s.w.s.u.m.PathPatternParserServerWebExchangeMatcher - Checking match of request : '/oauth2/token'; against '/oauth2/**'
+2022-04-17 17:12:33 [parallel-1] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - matched
+2022-04-17 17:12:33 [parallel-1] DEBUG o.s.s.w.s.a.DelegatingReactiveAuthorizationManager - Checking authorization on '/oauth2/token' using org.springframework.security.config.web.server.ServerHttpSecurity$AuthorizeExchangeSpec$Access$$Lambda$694/0x000000080065a440@30512871
+2022-04-17 17:12:33 [parallel-1] DEBUG o.s.s.w.s.a.AuthorizationWebFilter - Authorization successful

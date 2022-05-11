@@ -1,0 +1,300 @@
+2022-05-01 12:46:14 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 15524 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 12:46:14 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 12:46:14 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 12:46:18 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 12:46:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 12:46:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 12:46:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 12:46:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 12:46:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 12:46:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4881 ms
+2022-05-01 12:46:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 12:46:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 12:46:39 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 33.866 seconds (JVM running for 46.355)
+2022-05-01 12:51:08 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 12:51:08 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 11044 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 12:51:08 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 12:51:10 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 12:51:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 12:51:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 12:51:11 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 12:51:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 12:51:11 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 12:51:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3231 ms
+2022-05-01 12:51:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 12:51:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 12:51:19 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 15.765 seconds (JVM running for 20.958)
+2022-05-01 12:57:15 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 12:57:15 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 12:57:15 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-05-01 12:57:15 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 12:57:20 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 12:59:04 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/notification-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 12:59:12 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/notification-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:16:25 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 6288 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 13:16:25 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 13:16:25 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 13:16:26 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 13:16:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 13:16:26 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 13:16:26 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 13:16:26 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 13:16:26 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 13:16:26 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1052 ms
+2022-05-01 13:16:28 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 13:16:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 13:16:28 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 13:16:28 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 13:16:28 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-05-01 13:16:29 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 5.605 seconds (JVM running for 7.789)
+2022-05-01 13:16:53 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/cloud-gateway-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:16:55 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/cloud-gateway-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:17:21 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:17:22 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:17:49 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/notification-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:17:50 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/notification-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:19:19 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:19:20 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:29:57 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:29:59 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:39:50 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 13:39:50 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 17808 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 13:39:50 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 13:39:53 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 13:39:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 13:39:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 13:39:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 13:39:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 13:39:54 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 13:39:54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3358 ms
+2022-05-01 13:39:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 13:39:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 13:40:02 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 17.715 seconds (JVM running for 23.428)
+2022-05-01 13:40:45 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 15772 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 13:40:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 13:40:45 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 13:40:48 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 13:40:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 13:40:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 13:40:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 13:40:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 13:40:49 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 13:40:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3280 ms
+2022-05-01 13:40:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 13:40:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 13:40:56 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 16.037 seconds (JVM running for 21.519)
+2022-05-01 13:41:51 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 13:41:51 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 13:41:51 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-05-01 13:41:51 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:41:53 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:46:28 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:46:30 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:50:57 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 14476 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 13:50:57 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 13:50:57 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 13:50:58 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 13:50:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 13:50:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 13:50:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 13:50:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 13:50:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 13:50:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 971 ms
+2022-05-01 13:50:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 13:51:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 13:51:00 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 4.862 seconds (JVM running for 7.025)
+2022-05-01 13:51:24 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 13:51:24 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 13:51:24 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-05-01 13:51:24 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:51:25 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:56:39 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 13:56:39 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 19952 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 13:56:39 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 13:56:40 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 13:56:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 13:56:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 13:56:40 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 13:56:40 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 13:56:40 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 13:56:40 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1054 ms
+2022-05-01 13:56:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 13:56:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 13:56:42 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 4.842 seconds (JVM running for 6.302)
+2022-05-01 13:57:01 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 13:57:01 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 13:57:01 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-05-01 13:57:01 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 13:57:03 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:21:17 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 18424 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 14:21:17 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 14:21:17 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 14:21:17 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 14:21:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 14:21:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 14:21:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 14:21:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 14:21:18 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 14:21:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1099 ms
+2022-05-01 14:21:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 14:21:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 14:21:20 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 4.96 seconds (JVM running for 6.671)
+2022-05-01 14:21:42 [http-nio-8888-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 14:21:42 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 14:21:42 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-05-01 14:21:42 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:21:43 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:23:56 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:23:57 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:26:08 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:26:10 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:31:58 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:31:59 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:32:38 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:32:39 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:33:54 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:33:55 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:41:27 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 9104 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 14:41:27 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 14:41:27 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 14:41:28 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 14:41:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 14:41:28 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 14:41:28 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 14:41:28 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 14:41:28 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 14:41:28 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1010 ms
+2022-05-01 14:41:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 14:41:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 14:41:30 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 4.67 seconds (JVM running for 6.183)
+2022-05-01 14:41:55 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 14:41:55 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 14:41:55 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-05-01 14:41:55 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:41:57 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:45:32 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:45:34 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:45:53 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 14320 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 14:45:53 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 14:45:53 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 14:45:54 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 14:45:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 14:45:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 14:45:54 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 14:45:54 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 14:45:54 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 14:45:54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1023 ms
+2022-05-01 14:45:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 14:45:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 14:45:57 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 5.111 seconds (JVM running for 7.172)
+2022-05-01 14:46:11 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 14:46:11 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 14:46:11 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-05-01 14:46:11 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:46:13 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:47:19 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 20788 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 14:47:19 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 14:47:19 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 14:47:20 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 14:47:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 14:47:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 14:47:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 14:47:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 14:47:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 14:47:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 986 ms
+2022-05-01 14:47:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 14:47:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 14:47:22 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 4.763 seconds (JVM running for 6.295)
+2022-05-01 14:47:41 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 14:47:41 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 14:47:41 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-05-01 14:47:41 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/notification-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:47:42 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/notification-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:48:02 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:48:03 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:56:27 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/notification-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 14:56:28 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/notification-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 15:06:51 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/notification-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 15:06:52 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/notification-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 15:08:37 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 15:08:39 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 15:13:18 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 15:13:18 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 12992 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 15:13:18 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 15:13:19 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 15:13:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 15:13:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 15:13:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 15:13:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 15:13:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 15:13:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1140 ms
+2022-05-01 15:13:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 15:13:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 15:13:21 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 5.042 seconds (JVM running for 6.665)
+2022-05-01 15:13:38 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 15:13:38 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 15:13:38 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-05-01 15:13:38 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 15:13:39 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 15:47:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 15:47:44 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 24676 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 15:47:44 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 15:47:45 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 15:47:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 15:47:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 15:47:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 15:47:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 15:47:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 15:47:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1045 ms
+2022-05-01 15:47:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 15:47:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 15:47:48 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 4.936 seconds (JVM running for 8.012)
+2022-05-01 15:48:08 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 15:48:08 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 15:48:08 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-05-01 15:48:08 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 15:48:10 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 15:56:23 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 15:56:24 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 16:07:30 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 17428 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 16:07:30 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 16:07:30 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 16:07:31 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 16:07:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 16:07:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 16:07:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 16:07:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 16:07:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 16:07:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 993 ms
+2022-05-01 16:07:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 16:07:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 16:07:33 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 5.07 seconds (JVM running for 7.101)
+2022-05-01 16:07:47 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 16:07:47 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 16:07:47 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-05-01 16:07:47 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 16:07:49 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 16:08:19 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/notification-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 16:08:21 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/notification-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 16:13:59 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-05-01 16:13:59 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.6 on AHMET-PC with PID 23224 (C:\development\assignment\poll-app-hexagonal\pollstack-demo\config-server\target\classes started by ahmet in C:\development\assignment\poll-app-hexagonal\pollstack-demo)
+2022-05-01 16:13:59 [main] INFO  c.m.demo.config.server.ConfigServer - The following 2 profiles are active: "local", "native"
+2022-05-01 16:14:00 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=91fb09b5-6906-35b5-aeb8-62cc0018aebc
+2022-05-01 16:14:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-05-01 16:14:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-05-01 16:14:00 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-01 16:14:00 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-01 16:14:00 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-01 16:14:00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1001 ms
+2022-05-01 16:14:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-05-01 16:14:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-01 16:14:02 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 4.856 seconds (JVM running for 6.776)
+2022-05-01 16:14:25 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 16:14:25 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-01 16:14:25 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-05-01 16:14:25 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 16:14:27 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 16:15:10 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/notification-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 16:15:11 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/notification-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 16:23:40 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'
+2022-05-01 16:23:41 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'class path resource [config/poll-manager-dev.yml]' via location 'classpath:/config/'

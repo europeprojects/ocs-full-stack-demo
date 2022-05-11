@@ -1,0 +1,42 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /notification-manager
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: ${HOST:notification-manager}
+  client:
+    enabled: false
+    serviceUrl:
+      defaultZone: http://mak-discovery-server/eureka
+    register-with-eureka: false
+    fetch-registry: false
+    healthcheck:
+      enabled: true
+spring:
+#  autoconfigure:
+#    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ocstechno34@gmail.com
+    password: ocs34123.
+    protocol: smtp
+    tls: true
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com
+springdoc:
+  api-docs:
+    enabled: true
+    path: '/v3/api-docs'
+  swagger-ui:
+    path: /swagger-ui
+    config-url: /v3/api-docs/swagger-config
+    disable-swagger-default-url: true
+    url: /v3/api-docs

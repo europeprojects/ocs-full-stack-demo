@@ -1,0 +1,11 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: local
+logging:
+  level:
+    ROOT: INFO
+    org.spring.framework.cloud.config: DEBUG

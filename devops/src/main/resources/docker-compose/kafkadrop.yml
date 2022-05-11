@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  kafdrop:
+    image: obsidiandynamics/kafdrop
+    restart: "no"
+    ports:
+      - "9000:9000"
+    environment:
+      KAFKA_BROKERCONNECT: "kafka-broker-1:9092,kafka-broker-2:9092,kafka-broker-3:9092"
+    depends_on:
+      -  kafka-broker-1
+      -  kafka-broker-2
+      -  kafka-broker-3
+    networks:
+      - ${GLOBAL_NETWORK:-kafka}

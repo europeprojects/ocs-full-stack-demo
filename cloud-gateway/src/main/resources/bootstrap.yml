@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cloud-gateway
+  profiles:
+    active: dev
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888 #default
+      fail-fast: false
+  config:
+    import: "optional:configserver:"
